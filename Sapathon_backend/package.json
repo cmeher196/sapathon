@@ -1,0 +1,19 @@
+{
+  "name": "iot_cockpit",
+  "version": "1.0.0",
+  "description": "to fetch data from iot cockpit measures",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Chandra Meher",
+  "license": "ISC",
+  "dependencies": {
+    "@sap/hana-client": "file:../../../../Program Files/SAP/hdbclient/node",
+    "base-64": "^0.1.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.3"
+  }
+}
